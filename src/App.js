@@ -1,9 +1,9 @@
 import './App.css';
-import Div1 from './components.js/div1';
+import TodoApp from './components/TodoApp.js';
 
 function App() {
   return (
-    <Div1 />
+    <TodoApp />
   );
 }
 

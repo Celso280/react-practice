@@ -1,8 +1,50 @@
-.first {
+.todo-app {
+  border: 2px solid blue;
+  padding: 10px;
+  width: 400px;
+  margin: auto;
+}
+
+.header {
+  border: 2px solid yellow;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.input-todo-container {
+  position: relative;
+  border: 2px solid green;
+  margin-bottom: 5px;
+  height: 25px;
+}
+
+.todo-item-form {
   display: flex;
   justify-content: space-between;
 }
 
-label.trash {
-  margin-left: 50;
+.icon {
+  position: absolute;
+  top: 4px;
+  right: 15px;
+}
+
+.input-todo {
+  width: 345px;
+  margin-left: 10px;
+}
+
+.todo-item-container {
+  border: 2px solid red;
+  margin-bottom: 5px;
+}
+
+.todo-list {
+  border: 2px solid purple;
+  padding: 10px;
+}
+
+.todo-logic {
+  border: 2px solid black;
+  padding: 10px;
 }
