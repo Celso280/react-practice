@@ -1,0 +1,8 @@
+.first {
+  display: flex;
+  justify-content: space-between;
+}
+
+label.trash {
+  margin-left: 50;
+}
